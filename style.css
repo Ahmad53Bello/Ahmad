@@ -1,0 +1,44 @@
+:root{
+    --primary-color: rgba(13, 110,139, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.85s;
+}
+body{
+background: var(--primary-color);
+padding: 0;
+margin: 0;
+}
+
+.logo{
+    max-width: 1000px;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+}
+.ff{
+    font-family: cursive;
+}
+.nav {
+     background: var(--overlay-color);
+     padding: 50px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20;
+    margin: 100px;
+}
+.par{
+    display: flex;
+}
+.tri{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    border: 30px, solid, greenyellow;
+    border-top:  30px, solid, rgb(6, 8, 3);
+    border-bottom:  30px, solid, rgb(153, 165, 135);
+    border-right:  30px, solid, rgb(184, 130, 161);
+    border-left:  30px, solid, rgb(216, 151, 151);
+   }
